@@ -12,12 +12,12 @@ mod delicious_snacks {
 
     pub mod fruits {
         pub const PEAR: &'static str = "Pear";
-        const APPLE: &'static str = "Apple";
+        pub const APPLE: &'static str = "Apple";
     }
 
     pub mod veggies {
         pub const CUCUMBER: &'static str = "Cucumber";
-        const CARROT: &'static str = "Carrot";
+        pub const CARROT: &'static str = "Carrot";
     }
 }
 
